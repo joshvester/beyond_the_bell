@@ -16,13 +16,12 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
           <img src="assets/images/old_logo_ts.png" alt="" width="30" height="24" class="d-inline-block align-text-left">
-          Beyond the Bell
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Beyond the Bell</a>
               <a class="nav-link" href="items.html">Items</a>
               <a class="nav-link active" aria-current="page" href="login.html">Login</a>
               <a class="nav-link" href="register.html">Register</a>
@@ -31,6 +30,30 @@
           </div>
         </div>
       </nav>
+
+      <div class="container d-flex justify-content-center mt-5 mb-4">
+        <form class="shadow p-5" action="./index.html" method="GET" style="background-color: #ffffff" >
+          <fieldset>
+            <legend class="text-center"><h1>Login</h1></legend>
+          <div class="mb-3">
+            <label for="loginEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text">Use the email address you registered with.</div>
+          </div>
+          <div class="mb-3">
+            <label for="loginPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="loginPassword" required>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="loginRemember">
+            <label class="form-check-label" for="loginRemember">Remember Me?</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+          <div class="mb-3" class="noaccount">
+            <a class="noaccount-check" href="register.html">No account? Register here.</a>
+          </div>
+        </form>
     
 </body>
 </html>
