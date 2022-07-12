@@ -8,7 +8,10 @@
         <!-- including the bootstrap css -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <!-- include our global css file -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/styles.css">    
+        <title>Beyond the Bell</title>
+        <link rel="icon" type="image/x-icon" href="assets/images/old_logo_ts.png">
+
     </head>
 </head>
 <body>
@@ -30,21 +33,50 @@
           </div>
         </div>
       </nav>
-      <h1>Hello!</h1>
-      <ul class="list-group">
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          A list item
-          <span class="badge bg-primary rounded-pill">14</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          A second list item
-          <span class="badge bg-primary rounded-pill">2</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          A third list item
-          <span class="badge bg-primary rounded-pill">1</span>
-        </li>
-      </ul>
+      <h1 class="text-center">Available Items</h1>
+
+    <div class="container">
+       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+        <div class="card" style="width: 18rem;">
+            <img src="assets/images/beefy_crunch_burrito.jpg" class="card-img-top" alt="Beefy Crunch Burrito">
+            <div class="card-body">
+                <p class="item-title">Beefy Crunch Burrito</p>
+              <p class="card-text">Includes seasoned beef, Flamin' Hot Fritos, reduced-fat sour cream, Mexican rice, and nacho cheese sauce.</p> 
+              <p>Last available: 2016</p>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/grilled_stuft_nacho.jpg" class="card-img-top" alt="Grilled Stuft Nacho">
+            <div class="card-body">
+                <p class="item-title">Grilled Stuft Nacho</p>
+              <p class="card-text">Flour tortilla, shaped like a nacho, stuffed with beef, cheddar jalapeño sauce, nacho cheese, sour cream, and crunchy red strips.</p> 
+              <p>Last available: May 2015</p>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/potato_griller.jpg" class="card-img-top" alt="Loaded Potato Griller">
+            <div class="card-body">
+                <p class="item-title">Loaded Potato Griller</p>
+              <p class="card-text">The griller consists of potatoes, reduced-fat sour cream, bacon, and nacho cheese sauce.</p> 
+              <p>Last available: September 2020</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/bell_beefer.jpg" class="card-img-top" alt="Bell Beefer">
+            <div class="card-body">
+                <p class="item-title">Bell Beefer</p>
+              <p class="card-text">A bun with meat, diced onions, shredded lettuce, diced tomatoes, grated cheese and mild border sauce.</p> 
+              <p>Last available: Mid-90's</p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    
+      
     
 </body>
 </html>

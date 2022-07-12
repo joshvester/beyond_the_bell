@@ -29,3 +29,19 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.footer {
+  padding:1.5rem;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+}
+
+#footer-info {
+    font-weight: bold;
+}
+
+.item-title {
+    font-weight: bold;
+}
