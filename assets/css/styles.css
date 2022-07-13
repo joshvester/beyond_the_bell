@@ -40,8 +40,13 @@ body, html {
 
 #footer-info {
     font-weight: bold;
+    background-color: #eae5d7;
 }
 
 .item-title {
     font-weight: bold;
+}
+
+#register-card {
+  background-color: #ffffff;
 }
