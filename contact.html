@@ -33,6 +33,81 @@
         </div>
       </nav>
 
+      <style>
+        body {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(assets/images/tacobell-inside.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+
+<div class="container mt-3 p-4 col-md-6 shadow" id="contact-form">
+  <form action="./contactreceived.html" method="GET">
+    <fieldset>
+      <legend><h1 class="text-center">Contact</h1></legend>
+      <div class="mb-3">
+        <label for="contactEmail" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" required>
+      </div>
+      <div class="mb-3">
+        <label for="feedbackText" class="form-label">Let Us Know</label>
+        <textarea class="form-control" id="feedbackText" rows="5" placeholder="Please enter any questions or feedback you might have. You can also use this section to tell us more about what items you would like to see us add to the menu."  required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
+  </form>
+</div>
+
+
+
+
+
+      <div class="container">
+        <style>
+          table {
+            background-color: #ffffff;
+          }
+
+        </style>
+        <style>
+          h3 {
+            color: #ffffff;
+          }
+
+        </style>
+          <h3 class="text-center">We want to hear from you!</h3>
+          <h3 class="text-center">Help us determine our next LTO to bring to you.</h3>
+        <table class="table table-hover table-md"  id="upcoming_item_table">
+          <thead>
+            <tr>
+              <th class="text-center" colspan="3">Upcoming Items</th>
+            </tr>
+            <tr class="text-center">
+              <th scope="col">Month</th>
+              <th scope="col">Item</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-center">August</th>
+              <td class="text-center">Quesarito</td>
+              <td class="text-center">$4.49</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-center">September</th>
+              <td class="text-center">Apple Empanada</td>
+              <td class="text-center">$1.89</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-center">October</th>
+              <td class="text-center">Fiesta Taco Salad</td>
+              <td class="text-center">$3.49</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
       <div class="container-fluid mb-80 background-color">
         <footer class="text-dark d-flex justify-content-center fixed-bottom bg-mg" id="footer-info">
           <p><span>&#169;</span>Not Taco Bell 2022</p>

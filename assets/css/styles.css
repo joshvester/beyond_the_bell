@@ -36,7 +36,7 @@ body, html {
   --bs-btn-bg: var(--bd-violet);
   --bs-btn-border-color: var(--bd-violet);
   --bs-btn-border-radius: .5rem;
-  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-color: teal;
   --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
   --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
   --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
@@ -74,4 +74,21 @@ body, html {
 
 #register-card {
   background-color: #ffffff;
+}
+
+#contact-form {
+  background-color: #ffffff;
+}
+
+#upcoming-items {
+  background-color: #ffffff;
+}
+
+.upcoming-item-table {
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
